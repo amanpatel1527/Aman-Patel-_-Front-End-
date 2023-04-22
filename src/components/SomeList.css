@@ -1,0 +1,41 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    background-color: lightblue;
+    align-items: center;
+}
+.main>h1{
+    text-transform: uppercase;
+    /* text-decoration: underline; */
+    border: 3px solid red;
+    border-radius: 3rem;
+    background-color: gray;
+}
+.main>h1:hover{
+    background-color: yellow;
+    cursor: pointer;
+}
+
+.main>ul{
+    display: flex;
+    flex-direction: row;
+    margin: 2rem;
+    padding: 2rem;
+    background-color:green;
+}
+.main>ul>li{
+    margin: 2rem;
+    padding: 1rem;
+    text-decoration: none;
+    cursor: pointer;
+}
+.main:hover{
+    background-color: green;
+}
+.main>ul:hover{
+    background-color: lightblue;
+}
+.main>ul>li:hover{
+    background-color: yellow;
+    border-radius: 4rem;
+}
