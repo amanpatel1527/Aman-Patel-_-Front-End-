@@ -1,0 +1,9 @@
+Q1)Explain what the simple List component does.
+Solution: A list of items can be rendered using the React component called List. SingleListItem components that each display a text item and allow user selection make up the list.
+
+A SingleListItem's background colour turns to green when it is selected, while the others' backgrounds stay red. To maintain track of which SingleListItem is currently selected, the List component uses state.
+
+
+Each item in the array of props that the List component receives is an object with a text property. With the text and a onClickHandler prop passed to each component, it iterates over this array and creates a SingleListItem component for each item.
+
+When a SingleListItem is clicked, the onClickHandler prop is a function that is called. It changes
